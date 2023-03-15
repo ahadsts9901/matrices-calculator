@@ -1,0 +1,150 @@
+*{
+    font-family: 'Caveat Brush', sans-serif;
+}
+
+body{
+    padding: 0em 1em;
+    color: #1a4820;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    background-color: #1a4820;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+mobile{
+    display: none;
+}
+
+header ul{
+    background-color: #1e5526;
+    padding: 0em;
+    margin: 0em;
+}
+
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0em;
+}
+
+header ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background-color: #1e5526;
+    padding: 0.3em 1em;
+    margin: 0.5em;
+}
+
+header ul li a:hover{
+    color: #1a4820;
+    background-color: #fff;
+}
+
+.white{
+    color: #1a4820;
+    background-color: #fff;
+}
+
+content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1a4820;
+    margin: 1em 0em;
+}
+
+form, result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0em;
+    margin: 1em 0em;
+    border: 2px solid #1a4820;
+}
+
+value{
+    margin: 0.5em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input, .output{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.button{
+    color: white;
+    background-color: #1a4820;
+    border: 0px;
+    border-radius: 10px;
+    padding: 0.3em 0.5em;
+    width: 6em;
+    height: 3em;
+}
+
+hr{
+    border: 2px solid #1a4820;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #1a4820;
+}
+
+@media (max-width: 768px) { 
+
+    header{
+        display: none;
+    }
+        
+    m-header{
+        background-color: #1a4820;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em 2em;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+    }
+
+    m-header div ul .white{
+        background-color: #1a4820;
+        color: #fff;
+
+    }
+
+}
