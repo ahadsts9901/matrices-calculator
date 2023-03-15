@@ -25,9 +25,10 @@ m-header{
 }
 
 header ul{
-    background-color: #1e5526;
-    padding: 0em;
+    background-color: #198754;
+    padding: 0em 1em;
     margin: 0em;
+    border-radius: 20px;
 }
 
 header ul li{
@@ -40,7 +41,7 @@ header ul li a{
     color: #fff;
     display: block;
     text-decoration: none;
-    background-color: #1e5526;
+    background-color: #198754;
     padding: 0.3em 1em;
     margin: 0.5em;
 }
