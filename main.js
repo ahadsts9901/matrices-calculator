@@ -1,4 +1,4 @@
-function add( event )
+function add(event)
 {
 
     {
@@ -30,15 +30,15 @@ function add( event )
 
     let SecondValues = [y1, y2, y3, y4, y5, y6, y7, y8, y9]
 
-    let z1 = FirstValues[0] + SecondValues[0]
-    // let z2 =
-    // let z3 =
-    // let z4 =
-    // let z5 =
-    // let z6 =
-    // let z7 =
-    // let z8 =
-    // let z9 =
+    z1 = FirstValues[0] + SecondValues[0]
+    z2 = FirstValues[1] + SecondValues[1]
+    z3 = FirstValues[2] + SecondValues[2]
+    z4 = FirstValues[3] + SecondValues[3]
+    z5 = FirstValues[4] + SecondValues[4]
+    z6 = FirstValues[5] + SecondValues[5]
+    z7 = FirstValues[6] + SecondValues[6]
+    z8 = FirstValues[7] + SecondValues[7]
+    z9 = FirstValues[8] + SecondValues[8]
 
     console.log (z1)
     
