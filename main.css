@@ -151,7 +151,7 @@ hr{
     color: #1a4820;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 600px) { 
 
     header{
         display: none;
@@ -174,5 +174,4 @@ hr{
         background-color: #1a4820;
         color: #fff;
     }
-
 }
