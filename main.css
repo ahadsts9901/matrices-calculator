@@ -42,18 +42,19 @@ header ul li a{
     display: block;
     text-decoration: none;
     background-color: #198754;
+    border-radius: 10px;
     padding: 0.3em 1em;
     margin: 0.5em;
 }
 
 header ul li a:hover{
-    color: #1a4820;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1a4820;
 }
 
 .white{
-    color: #1a4820;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1a4820;
 }
 
 content{
@@ -102,14 +103,41 @@ row{
     color: #000;
 }
 
+.input2, .output2{
+    width: 4em;
+    height: 4em;
+    margin: 1em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.input4, .output4{
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.5em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
 .button{
     color: white;
     background-color: #1a4820;
     border: 0px;
     border-radius: 10px;
     padding: 0.3em 0.5em;
-    width: 6em;
+    width: 4.5em;
     height: 3em;
+    margin: 0em 0.5em;
 }
 
 hr{

@@ -18,9 +18,10 @@
     <header>
         <h1>Matrix Calculator</h1>
         <ul>
-            <li><a class="white" href="./index.html">Add</a></li>
-            <li><a href="./subtract.html">Subtract</a></li>
-            <li><a href="./multiply.html">Multiply</a></li>
+            <li><a class="white" href="./index.html">2x2</a></li>
+            <li><a href="./3x3.html">3x3</a></li>
+            <li><a href="./4x4.html">4x4</a></li>
+            <li><a href="./divide.html">Divide</a></li>
         </ul>
     </header>
     <m-header>
@@ -30,73 +31,57 @@
               Menu
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item white" href="./index.html">Add</a></li>
-              <li><a class="dropdown-item" href="./subtract.html">Subtract</a></li>
-              <li><a class="dropdown-item" href="./multiply.html">Multiply</a></li>
+              <li><a class="dropdown-item white" href="./index.html">2x2</a></li>
+              <li><a class="dropdown-item" href="./3x3.html">3x3</a></li>
+              <li><a class="dropdown-item" href="./4x4.html">4x4</a></li>
+              <li><a class="dropdown-item" href="./divide.html">Divide</a></li>
             </ul>
           </div>
         </m-header>
     <content>
-        <h1>Matrix Addition</h1>
+        <h1>Matrix 2x2</h1>
         <br/>
         <h2>Enter Your Value</h2>
         <br/>
-        <form  onsubmit="add(event)">
+        <form>
             <value>
                 <h2>Value 1</h2>
                 <row>
-                    <input required class="input" id="x1" type="number">
-                    <input required class="input" id="x2" type="number">
-                    <input required class="input" id="x3" type="number">
+                    <input required class="input2" id="x1" type="number">
+                    <input required class="input2" id="x2" type="number">
                 </row>
                 <row>
-                    <input required class="input" id="x4" type="number">
-                    <input required class="input" id="x5" type="number">
-                    <input required class="input" id="x6" type="number">
-                </row>
-                <row>
-                    <input required class="input" id="x7" type="number">
-                    <input required class="input" id="x8" type="number">
-                    <input required class="input" id="x9" type="number">
+                    <input required class="input2" id="x3" type="number">
+                    <input required class="input2" id="x4" type="number">
                 </row>
             </value>
             <value>
                 <h2>Value 2</h2>
                 <row>
-                    <input required class="input" id="y1" type="number">
-                    <input required class="input" id="y2" type="number">
-                    <input required class="input" id="y3" type="number">
+                    <input required class="input2" id="y1" type="number">
+                    <input required class="input2" id="y2" type="number">
                 </row>
                 <row>
-                    <input required class="input" id="y4" type="number">
-                    <input required class="input" id="y5" type="number">
-                    <input required class="input" id="y6" type="number">
-                </row>
-                <row>
-                    <input required class="input" id="y7" type="number">
-                    <input required class="input" id="y8" type="number">
-                    <input required class="input" id="y9" type="number">
+                    <input required class="input2" id="y3" type="number">
+                    <input required class="input2" id="y4" type="number">
                 </row>
             </value>
-            <button class="button" type="submit">Add</button>
+            <buttons>
+            <button class="button" type="submit" onclick="add2(event)">Add</button>
+            <button class="button" type="submit" onclick="subtract2(event)">Subtract</button>
+            <button class="button" type="submit" onclick="multiply2(event)">Multiply</button>
+            </buttons>
         </form>
             <result>
             <value>
                 <h2>Result</h2>
                     <row>
-                        <p class="output" id="z1"></p>
-                        <p class="output" id="z2"></p>
-                        <p class="output" id="z3"></p>
+                        <p class="output2" id="z1"></p>
+                        <p class="output2" id="z2"></p>
                     </row>
                     <row>
-                        <p class="output" id="z4"></p>
-                        <p class="output" id="z5"></p>
-                        <p class="output" id="z6"></p>
-                    </row>
-                    <row>
-                        <p class="output" id="z7"></p>
-                        <p class="output" id="z8"></p>
-                        <p class="output" id="z9"></p>
+                        <p class="output2" id="z3"></p>
+                        <p class="output2" id="z4"></p>
                     </row>
             </value>
             </result>
